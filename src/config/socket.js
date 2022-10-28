@@ -1,5 +1,5 @@
 import {io} from 'socket.io-client'
 
-const url = 'http://localhost:3000';
+const url = 'https://chat-app-cdik.onrender.com';
 
 export default io(url);
